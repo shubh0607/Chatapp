@@ -19,13 +19,13 @@ It supports user signup, login, and authentication with secure password hashing 
 
 📂 Project Structure
 project-root/
-│── backend/         # Express + MongoDB backend
-│   ├── models/      # Mongoose models
-│   ├── routes/      # API routes
-│   ├── controllers/ # Business logic
-│   └── server.js    # Entry point
+│── backend/         
+│   ├── models/      
+│   ├── routes/     
+│   ├── controllers/
+│   └── server.js   
 │
-│── frontend/        # React frontend
+│── frontend/        
 │   ├── src/
 │   ├── public/
 │   └── vite.config.js / package.json
@@ -34,8 +34,8 @@ project-root/
 
 ⚙️ Installation
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/shubh0607/Chatapp
+cd Chatapp
 
 2️⃣ Setup Backend
 cd backend
@@ -53,7 +53,6 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 
 Run backend:
-
 npm run dev
 
 3️⃣ Setup Frontend
